@@ -1,0 +1,119 @@
+html {
+    scroll-behavior: smooth;
+}
+.navbar-nav .nav-link:hover {
+ color: white;
+ font-weight: 700;
+}
+.hero {
+    position: relative;
+}
+.hero img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+.hero-text .logo {
+    color: orange;
+    position: absolute;
+    font-weight: 700;
+    top: 8%;
+    left: 4%;
+   font-size: 70px;
+}
+.hero-text .info {
+    color: black;
+    position: absolute;
+    font-weight: 400;
+    top: 23%;
+    left: 10%;
+   font-size: 30px;
+   background-color: rgb(255, 247, 23);
+   
+}
+
+.items {
+    margin-top: 40px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.reviewss {
+    height: 400px;
+    width: 100%;
+    background-color: indianred;
+    margin-top: 10px;
+}
+.review-head {
+color: yellow;
+position: relative; 
+left: 45%; 
+top: 40px;
+}
+.review-text {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+
+}
+.one {
+    background-color: white;
+    border-radius: 10px;
+    height: 200px;
+    width: 270px;
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 8px;
+}
+.FAQ-text {
+    margin-top: 30px;
+    color: royalblue;
+    text-align: center;
+}
+.FAQ {
+    display: grid;
+    grid-template-rows: 250px 250px;
+    grid-template-columns: 350px 350px;
+    grid-gap: 20px;
+    margin-top: 15px;
+    margin-left: 25%;
+    padding-right: 20px;
+ 
+    place-items: center;
+}
+.transparent {
+    margin-top: 20px;
+    margin-left: 250px;
+    width: 100%;
+    height: 50px;
+    object-fit: cover;
+   
+    opacity: .3;
+}
+.overlay {
+    width: 100%;
+    height: 300px;
+    background-color: indianred;
+}
+.contact {
+    width: 100%;
+    background-color: #cdb4db;
+    margin-top: 100px;
+    height: 300px;
+    border-radius: 20px;
+}
+ .icons {
+display: flex;
+background-color: #cdb4db;
+width: 100%;
+height: 100px;
+margin-top: 50px;
+justify-content: space-evenly;
+}
+.copyright {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
