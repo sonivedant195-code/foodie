@@ -3,7 +3,7 @@ html {
 }
 body {
     overflow-x: hidden;
-}
+} 
 .navbar-nav .nav-link:hover {
  color: white;
  font-weight: 700;
